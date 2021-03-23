@@ -11,6 +11,6 @@ soup = BeautifulSoup(r.text, "lxml") # 解析代码
 title = soup.find("h1",class_="post-title").a.text.strip()
 print(title)
 
-with open("title.txt","a+") as f:
+with open("../title.txt", "a+") as f:
     f.write(title)
     f.close

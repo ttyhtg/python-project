@@ -19,15 +19,15 @@ driver = webdriver.Firefox(firefox_binary=binary, capabilities=caps)
 driver.get("https://www.airbnb.cn/s/shenzhen/homes?refinement_paths%5B%5D=%2Fhomes")
 time.sleep(3)
 
-rent_list = driver.find_elements_by_css_selector('a._okj6x')
+rent_list = driver.find_element_by_css_selector('a._okj6x')
 for eachhouse in rent_list:
-    comment = eachhouse.find_elements_by_css_selector('div._2v4jmx4')
+    comment = eachhouse.find_element_by_css_selector('div._2v4jmx4')
     comment = comment.text()
-    price = eachhouse.find_elements_by_css_selector('div._1ixtnfc')
+    price = eachhouse.find_element_by_css_selector('div._1ixtnfc')
     price = price.text[4:]
-    name = eachhouse.find_elements_by_css_selector('div._goi623')
+    name = eachhouse.find_element_by_css_selector('div._goi623')
     name = name.text
-    details = eachhouse.find_elements_by_css_selector('div._wuffzwa')
+    details = eachhouse.find_element_by_css_selector('div._wuffzwa')
     detail_list = [i.text for i in details]
     house_type = detail_list[0]
     no_bed = detail_list[1]
