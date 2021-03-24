@@ -1,6 +1,6 @@
 作为个人练习测试的仓库:
 
-[百度爬虫练习](python-project/tree/master/BaiduSpider)
+[百度爬虫练习](/master/BaiduSpider)
 
 [笨方法学python](https://gitee.com/ttyhtg/python-project/tree/master/LearnPython3theHardWay)
 
