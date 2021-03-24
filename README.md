@@ -2,9 +2,9 @@
 
 [百度爬虫练习](/BaiduSpider)
 
-[笨方法学python](https://gitee.com/ttyhtg/python-project/tree/master/LearnPython3theHardWay)
+[笨方法学python](/LearnPython3theHardWay)
 
-[Python 网络爬虫-从入门到实践](https://gitee.com/ttyhtg/python-project/tree/master/python_santostang)
+[Python 网络爬虫-从入门到实践](/python_santostang)
 
-[Scrapy框架练习](https://gitee.com/ttyhtg/python-project/tree/master/scrapy_frame)
+[Scrapy框架练习](/scrapy_frame)
 
