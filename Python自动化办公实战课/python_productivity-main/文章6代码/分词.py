@@ -11,7 +11,7 @@ print("/".join(words3))
 
 # words4 停止词
 stop_words = ["，", "！"]
-words4 =[x for x in words3 if x not in stop_words]
+words4 = [x for x in words3 if x not in stop_words]
 print(words4)
 # ['速度', '快', '包装', '好', '看着', '特别', '好', '喝', '着', '肯定', '不错', '价廉物美']
 

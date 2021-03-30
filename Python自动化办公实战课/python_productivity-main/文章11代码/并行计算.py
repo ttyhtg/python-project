@@ -14,14 +14,17 @@ def f(x):
     queue.put(os.getpid())
     return x*x
 
-with Pool(count) as p:
-    # 并行计算
-    res = p.map(f, range(1, 1001))
-    print(f'计算平方的结果是:{res}')
 
-# 并行计算用到的进程id
-pids = set()
-while not queue.empty():
-    pids.add(queue.get())
+if __name__ == "__main__":
+    with Pool(count) as p:
+        # 并行计算
+        res = p.map(f, range(1, 1001))
+        print(f'计算平方的结果是:{res}')
 
-print(f'用到的进程id是: {pids}')
+    # 并行计算用到的进程id
+
+    pids = set()
+    while not queue.empty():
+        pids.add(queue.get())
+
+    print(f'用到的进程id是: {pids}')

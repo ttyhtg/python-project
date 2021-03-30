@@ -40,5 +40,6 @@ def str_count(str):
 
 str_count("'中文：', count_zh")
 str_count("'特殊字符：', count_pu")
+str_count("Pyhont is good!999")
 for item in word_count:
     print(f"{item} 数量为:{sum(word_count[item])}")

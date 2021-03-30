@@ -1,8 +1,22 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, Http404, HttpResponseRedirect
 from django.urls import reverse
+from django.views import generic
 from .models import Question, Choice
 # Create your views here.
+
+
+class IndexView(generic.TemplateView):
+    template_name = "polls/index.html"
+
+    def get_context_data(self, **kwargs):
+        latest_question_list = Question.objects.order_by('-pub_date')[:5]
+        context = {
+            'latest_question_list': latest_question_list,
+        }
+        return context
+
+
 def index(request):
     """
     request 就是作为参数传递进来的请求对象
@@ -29,8 +43,8 @@ def detail(request, question_id):
 
 
 def results(request, question_id):
-    response = "You're looking at the results of question %s."
-    return HttpResponse(response % question_id)
+    question = get_object_or_404(Question, pk=question_id)
+    return render(request, 'polls/results.html', {'question': question})
 
 
 def vote(request, question_id):

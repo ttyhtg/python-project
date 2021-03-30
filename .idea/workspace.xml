@@ -11,93 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06f05b94-8a90-4522-87b8-e92a7b8d1605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnPython3theHardWay/ex5_study_drills_2_convert_20210325.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnPython3theHardWay/ex6_String_and_Text_20210325.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/polls/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projects.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnPython3theHardWay/ex5_20200920_no_my_.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnPython3theHardWay/ex5_study_drills_1_20200920.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/._合并excel脚本.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/._拆分excel脚本.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/result/._结果.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/工资单/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/工资单/._工资单.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/工资单/._李雷.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/工资单/._韩梅梅.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/调查问卷/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/调查问卷/._李雷.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/调查问卷/._调查问卷模版.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/__MACOSX/文章1代码/调查问卷/._韩梅梅.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/文章1代码/result/结果.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章1代码/文章1代码/result/结果.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章2代码/__MACOSX/文章2代码/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章2代码/__MACOSX/文章2代码/._word文件写入.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章2代码/__MACOSX/文章2代码/._富文本到纯文本格式的转换.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章2代码/__MACOSX/文章2代码/word样例文件/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章2代码/__MACOSX/文章2代码/word样例文件/._new2.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章2代码/__MACOSX/文章2代码/word样例文件/._绩效考核管理制度1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章2代码/__MACOSX/文章2代码/word样例文件/._绩效考核管理制度2.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章2代码/__MACOSX/文章2代码/邀请函样例文件/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章2代码/__MACOSX/文章2代码/邀请函样例文件/._客户信息.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章2代码/__MACOSX/文章2代码/邀请函样例文件/._邀请函模版.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章3代码/__MACOSX/._文章3代码" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章3代码/__MACOSX/文章3代码/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章3代码/__MACOSX/文章3代码/._example.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章3代码/__MACOSX/文章3代码/._文字识别.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章3代码/__MACOSX/文章3代码/._本地文字识别.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章3代码/__MACOSX/文章3代码/._训练数据下载地址.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/__MACOSX/文章7代码/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/__MACOSX/文章7代码/._e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/__MACOSX/文章7代码/._单文件字数统计.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/新年特辑/__MACOSX/新年特辑/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/新年特辑/__MACOSX/新年特辑/订单/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/新年特辑/__MACOSX/新年特辑/订单/._FEB.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/新年特辑/__MACOSX/新年特辑/订单/._JAN.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/新年特辑/__MACOSX/新年特辑/订单/._MAR.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/.idea/mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/.idea/mysite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python自动化办公实战课/chapter_11/multiprocessing_test_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python自动化办公实战课/chapter_6/zen.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章11代码/并行时间统计.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章11代码/并行时间统计.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章11代码/并行计算.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章11代码/并行计算.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章6代码/分词.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章6代码/分词.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码/区分类型统计字数.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码/区分类型统计字数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_santostang/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_santostang/test/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_santostang/test/yuanrenxue_seleniu_demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/automat-visualize.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/cftp.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/ckeygen.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/conch.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/jp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/mailmail.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/pip.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/pip3.6.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/pip3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/pyhtmlizer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/python36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/scrapy.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/tcl86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/tk86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/tkconch.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/trial.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/twist.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/twistd.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy_frame/Scripts/vcruntime140.dll" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,20 +47,89 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../chihai/Second" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\projects\python-project\Python自动化办公实战课\chapter_6" />
+      <recent name="G:\projects\python-project\Python自动化办公实战课" />
       <recent name="G:\projects\python-project\test" />
       <recent name="G:\projects\python-project\python_santostang\chapter_4" />
       <recent name="G:\projects\python-project\python_santostang\chapter_3" />
-      <recent name="G:\projects\python-project\python_santostang\chapter_2" />
-      <recent name="G:\projects\python-project\python_santostang" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\projects\python-project\Python自动化办公实战课\chapter_5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex5_study_drills_2_convert_20210325">
+  <component name="RunManager" selected="Python.text">
+    <configuration name="分词" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章6代码" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章6代码/分词.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="单文件字数统计" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码/单文件字数统计.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="区分类型统计字数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码/区分类型统计字数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,20 +152,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex5_study_drills_1_20200920" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
+    <configuration name="reg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearnPython3theHardWay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章8代码" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\projects\python-project\LearnPython3theHardWay\ex5_study_drills_1_20200920.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章8代码/reg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,74 +174,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex5_study_drills_2_convert_20210325" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearnPython3theHardWay" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearnPython3theHardWay/ex5_study_drills_2_convert_20210325.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_xl_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/chapter_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化办公实战课/chapter_1/read_xl_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_xl_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/chapter_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\projects\python-project\Python自动化办公实战课\chapter_1\read_xl_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
+    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -261,7 +187,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex5_study_drills_2_convert_20210325" />
-        <item itemvalue="Python.ex5_study_drills_1_20200920" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.read_xl_1 (1)" />
-        <item itemvalue="Python.read_xl_1" />
+        <item itemvalue="Python.text" />
+        <item itemvalue="Python.reg" />
+        <item itemvalue="Python.区分类型统计字数" />
+        <item itemvalue="Python.单文件字数统计" />
+        <item itemvalue="Python.分词" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +243,8 @@
       <workItem from="1616666774672" duration="1322000" />
       <workItem from="1616833698722" duration="56000" />
       <workItem from="1616833772293" duration="21000" />
-      <workItem from="1616834038044" duration="1379000" />
+      <workItem from="1616834038044" duration="10519000" />
+      <workItem from="1616923776284" duration="9016000" />
     </task>
     <servers />
   </component>
@@ -352,26 +279,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616141415023" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1616839756984">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1616941544529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616839756984" />
-    <state width="1306" height="174" key="GridCell.Tab.0.bottom" timestamp="1616666667619">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616941544529" />
+    <state width="1322" height="179" key="GridCell.Tab.0.bottom" timestamp="1617035383685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616666667619" />
-    <state width="1306" height="174" key="GridCell.Tab.0.center" timestamp="1616666667618">
+    <state width="1322" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1617035383685" />
+    <state width="1322" height="179" key="GridCell.Tab.0.center" timestamp="1617035383685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="174" key="GridCell.Tab.0.center/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616666667618" />
-    <state width="1306" height="174" key="GridCell.Tab.0.left" timestamp="1616666667618">
+    <state width="1322" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1617035383685" />
+    <state width="1322" height="179" key="GridCell.Tab.0.left" timestamp="1617035383685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="174" key="GridCell.Tab.0.left/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616666667618" />
-    <state width="1306" height="174" key="GridCell.Tab.0.right" timestamp="1616666667619">
+    <state width="1322" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1617035383685" />
+    <state width="1322" height="179" key="GridCell.Tab.0.right" timestamp="1617035383685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="174" key="GridCell.Tab.0.right/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616666667619" />
+    <state width="1322" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1617035383685" />
     <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1616141125049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -388,10 +315,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616141125048" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1616839826751">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1616923448255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616839826751" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616923448255" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1616141256460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -402,15 +329,19 @@
     <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616141404556" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_project$4_4_2_airbnb.coverage" NAME="4_4_2_airbnb Coverage Results" MODIFIED="1616146605718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_santostang" />
-    <SUITE FILE_PATH="coverage/python_project$create_class.coverage" NAME="create_class Coverage Results" MODIFIED="1616517494271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_santostang/chapter_2" />
     <SUITE FILE_PATH="coverage/python_project$test.coverage" NAME="test Coverage Results" MODIFIED="1616606900861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/python_project$read_xl_1.coverage" NAME="read_xl_1 Coverage Results" MODIFIED="1616596507168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/chapter_1" />
-    <SUITE FILE_PATH="coverage/python_project$ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1616064758384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearnPython3theHardWay" />
+    <SUITE FILE_PATH="coverage/python_project$.coverage" NAME="区分类型统计字数 Coverage Results" MODIFIED="1616934993662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码" />
     <SUITE FILE_PATH="coverage/python_project$ex5_study_drills_2_convert_20210325.coverage" NAME="ex5_study_drills_2_convert_20210325 Coverage Results" MODIFIED="1616663275951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearnPython3theHardWay" />
     <SUITE FILE_PATH="coverage/python_project$read_xl.coverage" NAME="read_xl_1 Coverage Results" MODIFIED="1616596125359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/chapter_1" />
-    <SUITE FILE_PATH="coverage/python_project$ex5_20200920_no_my_.coverage" NAME="ex5_20200920_no_my_ Coverage Results" MODIFIED="1616661889721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearnPython3theHardWay" />
+    <SUITE FILE_PATH="coverage/python_project$jieba_test2021.coverage" NAME="jieba_test2021 Coverage Results" MODIFIED="1616924770967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/python_project$3_2_homepage.coverage" NAME="3_2_homepage Coverage Results" MODIFIED="1616141304278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_santostang" />
     <SUITE FILE_PATH="coverage/python_project$read_xl_1__1_.coverage" NAME="read_xl_1 (1) Coverage Results" MODIFIED="1616598142633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/chapter_1" />
+    <SUITE FILE_PATH="coverage/python_project$4_4_2_airbnb.coverage" NAME="4_4_2_airbnb Coverage Results" MODIFIED="1616146605718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_santostang" />
+    <SUITE FILE_PATH="coverage/python_project$create_class.coverage" NAME="create_class Coverage Results" MODIFIED="1616517494271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_santostang/chapter_2" />
+    <SUITE FILE_PATH="coverage/python_project$read_xl_1.coverage" NAME="read_xl_1 Coverage Results" MODIFIED="1616596507168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/chapter_1" />
+    <SUITE FILE_PATH="coverage/python_project$text.coverage" NAME="text Coverage Results" MODIFIED="1616940301748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/python_project$ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1616064758384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearnPython3theHardWay" />
+    <SUITE FILE_PATH="coverage/python_project$reg.coverage" NAME="reg Coverage Results" MODIFIED="1616935233586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章8代码" />
+    <SUITE FILE_PATH="coverage/python_project$ex5_20200920_no_my_.coverage" NAME="ex5_20200920_no_my_ Coverage Results" MODIFIED="1616661889721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearnPython3theHardWay" />
   </component>
 </project>
