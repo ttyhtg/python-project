@@ -11,16 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06f05b94-8a90-4522-87b8-e92a7b8d1605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python自动化办公实战课/chapter_11/multiprocessing_test_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python自动化办公实战课/chapter_6/zen.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章11代码/并行时间统计.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章11代码/并行时间统计.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章11代码/并行计算.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章11代码/并行计算.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章6代码/分词.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章6代码/分词.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码/区分类型统计字数.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码/区分类型统计字数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,8 +191,6 @@
       <list>
         <item itemvalue="Python.text" />
         <item itemvalue="Python.reg" />
-        <item itemvalue="Python.区分类型统计字数" />
-        <item itemvalue="Python.单文件字数统计" />
         <item itemvalue="Python.分词" />
       </list>
     </recent_temporary>
@@ -245,6 +234,7 @@
       <workItem from="1616833772293" duration="21000" />
       <workItem from="1616834038044" duration="10519000" />
       <workItem from="1616923776284" duration="9016000" />
+      <workItem from="1617062456077" duration="260000" />
     </task>
     <servers />
   </component>
