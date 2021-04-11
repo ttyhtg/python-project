@@ -1,9 +1,9 @@
 from django.shortcuts import render, get_object_or_404
-# Create your views here.
 from django.http import HttpResponse, Http404, HttpResponseRedirect
 from django.urls import reverse
 from django.views import generic
 from .models import Question, Choice
+# Create your views here.
 
 
 class IndexView(generic.TemplateView):
@@ -21,9 +21,10 @@ def index(request):
     """
     request 就是作为参数传递进来的请求对象
     :param request:
-    :return:HttpResponse 处理完请求的返回对象
+    :return:
     """
     latest_question_list = Question.objects.order_by('-pub_date')[:5]
+    # template = loader.get_template('polls/index.html')
     context = {
         'latest_question_list': latest_question_list,
     }
