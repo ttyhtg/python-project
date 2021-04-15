@@ -1,6 +1,6 @@
 <!-- build time:Thu Oct 04 2018 22:01:08 GMT+0800 (中国标准时间) -->
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -362,27 +362,31 @@
                 <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
                     <div class="article-header">
                         <h1 itemprop="name">
-                            <a class="article-title" href="{{ article }}">{{ article.title}}</a>
+                            <a class="article-title" href="{{ article.url }}">{{ article.title}}</a>
                         </h1>
                     </div>
                     <p class="article-meta">
                         <span class="article-date">
                             <i class="icon icon-calendar-check"></i>
-                            <a href="{{ article }}" class="article-date">
+                            <a href="{{ article.url }}" class="article-date">
                                 <time datetime="{{ article.create_time}}" itemprop="datePublished">{{article.pub_date}}</time>
                             </a>
                         </span>
                         <span class="article-category">
                             <i class="icon icon-folder"></i>
-                            <a class="article-category-link" href="/categories/开发/">开发</a>
+                            {% for category in article.categories %}
+                            <a class="article-category-link" href="{{ category.uri}}">{{ category.name }}</a>
+                            {% endfor %}
                         </span>
                         <span class="article-tag">
                             <i class="icon icon-tags"></i>
-                            <a class="article-tag-link" href="/tags/程序员/">程序员</a>
+                            {% for tag in article.tags %}
+                            <a class="article-tag-link" href="{{ tag.uri }}">{{ tag.name }}</a>
+                            {% endfor %}
                         </span>
                         <span class="post-comment">
                             <i class="icon icon-comment"></i>
-                            <a href="/2018/03/28/那些有趣的注释，有没有你曾用过的.html#comments" class="article-comment-link">评论</a>
+                            <a href="{{article.url}}#comments" class="article-comment-link">评论</a>
                         </span>
                         <span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: {{ article.length}}(字)</span>
                         <span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: {{ article.read_time }}(分)</span>
@@ -429,7 +433,7 @@
         </footer>
         <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
         <script>
-            window.jQuery || document.write('<script src="/static/js/jquery.min.js"><\/script>')
+            window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
         </script>
         <script src="/static/js/plugin.min.js"></script>
         <script src="/static/js/application.js"></script>
