@@ -1,14 +1,24 @@
+import time
+
+from django.http import JsonResponse
 from django.shortcuts import render
+from django.db import transaction
 from django.views.generic import TemplateView
-from .models import Article, Category
+from django.core import serializers
+from django.core.cache import cache
+from .models import Article, Category, Tag
+from .serializers import ArticleSerializer
+from rest_framework.views import APIView
 # Create your views here.
 import math
+import json
 import markdown
 # import sys
 # print('Python %s on %s' % (sys.version, sys.platform))
 
+
 class IndexView(TemplateView):
-    template_name = "index.html"
+    template_name = "new_index.html"
 
     def get(self, request, *args, **kwargs):
         article_list = Article.objects.order_by("-create_time")
@@ -27,7 +37,7 @@ class IndexView(TemplateView):
 
 
 class DetailView(TemplateView):
-    template_name = "detail.html"
+    template_name = "new_detail.html"
 
     def get(self, request, *args, **kwargs):
         article = Article.objects.get(url=request.path)
@@ -63,6 +73,147 @@ class DetailView(TemplateView):
                 "article": article,
             }
 
+        return self.render_to_response(context)
 
+
+class ArchiveView(TemplateView):
+    """
+    archive_dict = { "2018": {"year":2018, "article_list": []}}
+    """
+    template_name = "archive.html"
+
+    def get(self, request, *args, **kwargs):
+        redis_key = "archive_cache"
+        redis_value = cache.get(redis_key)
+        if redis_value:
+            print("hit cache")
+            serializer_archives = json.loads(redis_value)
+            archive_list = []
+            article_count = 0
+            for archive in serializer_archives:
+                # 为了模板可以正常渲染, 需要将article反序列化为对象
+                archive_list.append({
+                    "year": archive['year'],
+                    "article_list": [obj.object for obj in serializers.deserialize('json', archive['article_list'])]
+                })
+                article_count += len(archive['article_list'])
+
+            context = {
+                "archive_list": archive_list,
+                "article_count": article_count
+            }
+        else:
+            article_list = Article.objects.all()
+
+            archive_dict = {}
+            for article in article_list:
+                year = article.create_time.strftime("%Y")
+                # 如果当前字典没有目标key, 则给定默认值
+                # 如果当前字典有目标key, 则无变化
+                archive_dict.setdefault(year, {"year": year, "article_list": []})
+                archive_dict[year]['article_list'].append(article)
+
+            context = {
+                "archive_list": archive_dict.values(),
+                "article_count": len(article_list)
+            }
+
+            # 缓存archive_list
+            serializer_archives = []
+            for archive in archive_dict.values():
+                serializer_archives.append({
+                    "year": archive['year'],
+                    "article_list": serializers.serialize("json", archive['article_list'])
+                })
+            cache.set(redis_key, json.dumps(serializer_archives))
+            cache.expire(redis_key, 60)
 
         return self.render_to_response(context)
+
+
+class ArticleApiView(APIView):
+    def get(self, request, *args, **kwargs):
+        """
+        article?limit_num=2
+        :param args:
+        :param kwargs:
+        :return:
+        """
+        # 重点是学习如何获取url当中的参数
+        limit_num = request.GET.get("limit_num")
+        if limit_num:
+            article_array = Article.objects.all()[:int(limit_num)]
+        else:
+            article_array = Article.objects.all()
+        se_article_array = ArticleSerializer(article_array, many=True)
+        return JsonResponse({
+            "status": 200,
+            "data": se_article_array.data
+        }, safe=False)
+
+    def post(self, request, *args, **kwargs):
+        """
+        添加文章的时候, 需要带上category和tag的信息
+        只要article, category, tag有一方报错的时候, 当前文章都算添加失败.
+        所以我们应该适用事务进行包装
+        :param request:
+        :param args:
+        :param kwargs:
+        :return:
+        """
+        try:
+            message = {"status": 200}
+            with transaction.atomic():
+                title = request.POST['title']
+                text = request.POST['text']
+                categories = json.loads(request.POST['categories'])
+                tags = json.loads(request.POST['tags'])
+
+                article_data = {
+                    "title": title,
+                    "text": text,
+                    "url": f"/{time.strftime('%Y/%m/%d')}/{title}.html"
+                }
+                se_article = ArticleSerializer(data=article_data)
+                se_article.is_valid()
+                article = se_article.create(se_article.data)
+                article.save()
+
+                for category in categories:
+                    cate = Category(
+                        name=category['name'],
+                        slug=category['slug'],
+                        uri=f"/categories/{category['slug']}/"
+                    )
+                    cate.article = article
+                    cate.save()
+
+                for tag in tags:
+                    tag = Tag(
+                        name=tag['name'],
+                        slug=tag['slug'],
+                        uri=f"/tags/{tag['slug']}/"
+                    )
+                    tag.article = article
+                    tag.save()
+        except:
+            message = {"status": 500, "reason": "添加文章失败"}
+        finally:
+            response = JsonResponse(message, safe=False)
+            response['Access-Control-Allow-Origin'] = "*"  # *表示任意域名
+            response['Access-Control-Allow-Headers'] = "*"
+            response['Access-Control-Allow-Methods'] = "OPTIONS, POST, GET"
+
+    def put(self, request, *args, **kwargs):
+        """
+        重点是如何获取携带的参数
+        request.POST(key)
+        :param request:
+        :param args:
+        :param kwargs:
+        :return:
+        """
+        pass
+
+    def delete(self, request, *args, **kwargs):
+        pass

@@ -9,10 +9,12 @@ class Person(models.Model):
     create_time = models.DateTimeField(auto_now_add=True, null=True)
 
     null_test = models.CharField(max_length=200, null=True)
-    blank_test = models.CharField(max_length=200, null=True)
+    blank_test = models.CharField(max_length=200, blank=True)
 
     class Meta:
         abstract = True
+
+
 
 
 class Reader(Person):
@@ -21,6 +23,7 @@ class Reader(Person):
     class Meta:
         db_table = "reader"
         managed = False
+        get_latest_by = ['id']
 
     def __str__(self):
         return f"id:{self.id}, {self.name}"

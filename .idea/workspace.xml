@@ -11,7 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06f05b94-8a90-4522-87b8-e92a7b8d1605" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cuiqingcai/python3_spider/module_1_1_6/threading_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/blog/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/templates/archive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/templates/new_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python自动化办公实战课/chapter_18/download_pic_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python自动化办公实战课/chapter_18/download_pic_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/myblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/myblog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/static/img/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/static/img/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/myblog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/myblog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +46,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="be92f651-c2fc-4c48-aa83-8928aa267a19" />
+  <component name="JupyterTrust" id="34722fb5-1d1f-417f-bfd9-03ade7a2672f" />
   <component name="ProjectId" id="1pvXfh6UydiFdOZzwVlG5p4uEzr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,8 +55,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../chihai/chihai_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -50,19 +69,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\projects\python-project\Python自动化办公实战课\chapter_5" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\projects\python-project\zhishihezi\python3_spider\module_1_1_6" />
       <recent name="G:\projects\python-project\Python自动化办公实战课\chapter_6" />
       <recent name="G:\projects\python-project\Python自动化办公实战课" />
       <recent name="G:\projects\python-project\test" />
       <recent name="G:\projects\python-project\python_santostang\chapter_4" />
-      <recent name="G:\projects\python-project\python_santostang\chapter_3" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\projects\python-project\Python自动化办公实战课\chapter_5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.upload_2021">
-    <configuration name="分词" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.class_8_2_url">
+    <configuration name="chrome_driver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,12 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章6代码" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zhishihezi/python3_spider/module_1_1_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章6代码/分词.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zhishihezi/python3_spider/module_1_1_6/chrome_driver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="单文件字数统计" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_7_proxy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,12 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zhishihezi/python3_spider/module_2_7_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码/单文件字数统计.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zhishihezi/python3_spider/module_2_7_11/class_7_proxy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="区分类型统计字数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_8_1_string (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,12 +131,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cuiqingcai/python3_spider/module_2_8_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码/区分类型统计字数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cuiqingcai/python3_spider/module_2_8_1/class_8_1_string.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="class_8_1_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cuiqingcai/python3_spider/module_2_8_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="G:\projects\python-project\cuiqingcai\python3_spider\module_2_8_1\class_8_1_string.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="class_8_2_url" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cuiqingcai/python3_spider/module_2_8_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cuiqingcai/python3_spider/module_2_8_1/class_8_2_url.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,101 +208,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_trans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/chapter_17" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化办公实战课/chapter_17/file_trans.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="reg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章8代码" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章8代码/reg.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/text.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="upload_2021" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python自动化办公实战课/chapter_17" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python自动化办公实战课/chapter_17/upload_2021.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.upload_2021" />
-        <item itemvalue="Python.file_trans" />
-        <item itemvalue="Python.text" />
-        <item itemvalue="Python.reg" />
-        <item itemvalue="Python.分词" />
+        <item itemvalue="Python.class_8_2_url" />
+        <item itemvalue="Python.class_8_1_string (1)" />
+        <item itemvalue="Python.class_8_1_string" />
+        <item itemvalue="Python.chrome_driver" />
+        <item itemvalue="Python.class_7_proxy" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +258,12 @@
       <workItem from="1616834038044" duration="10519000" />
       <workItem from="1616923776284" duration="9016000" />
       <workItem from="1617062456077" duration="260000" />
-      <workItem from="1617062868720" duration="3145000" />
+      <workItem from="1617062868720" duration="6973000" />
+      <workItem from="1617166343282" duration="1536000" />
+      <workItem from="1617257062903" duration="1292000" />
+      <workItem from="1617870222116" duration="28000" />
+      <workItem from="1618274388755" duration="6041000" />
+      <workItem from="1618450086245" duration="677000" />
     </task>
     <servers />
   </component>
@@ -309,85 +284,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="396" y="0" key="#Plugins" timestamp="1616604350670">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="396" y="0" key="#Plugins/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616604350670" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616140859559">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616140859559" />
-    <state x="437" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1616141415023">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="437" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616141415023" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1617063720191">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1617063720191" />
-    <state width="1322" height="179" key="GridCell.Tab.0.bottom" timestamp="1617065517356">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1617065517356" />
-    <state width="1322" height="179" key="GridCell.Tab.0.center" timestamp="1617065517356">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1617065517356" />
-    <state width="1322" height="179" key="GridCell.Tab.0.left" timestamp="1617065517356">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1617065517356" />
-    <state width="1322" height="179" key="GridCell.Tab.0.right" timestamp="1617065517356">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1617065517356" />
-    <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1616141125049">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616141125049" />
-    <state width="1322" height="217" key="GridCell.Tab.1.center" timestamp="1616141125048">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.center/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616141125048" />
-    <state width="1322" height="217" key="GridCell.Tab.1.left" timestamp="1616141125048">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.left/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616141125048" />
-    <state width="1322" height="217" key="GridCell.Tab.1.right" timestamp="1616141125048">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616141125048" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1616923448255">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616923448255" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1616141256460">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616141256460" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1616141404556">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728/-336.-1080.1920.1080@0.0.1366.728" timestamp="1616141404556" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_project$test.coverage" NAME="test Coverage Results" MODIFIED="1616606900861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/python_project$.coverage" NAME="区分类型统计字数 Coverage Results" MODIFIED="1616934993662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章7代码/文章7代码" />
-    <SUITE FILE_PATH="coverage/python_project$ex5_study_drills_2_convert_20210325.coverage" NAME="ex5_study_drills_2_convert_20210325 Coverage Results" MODIFIED="1616663275951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearnPython3theHardWay" />
-    <SUITE FILE_PATH="coverage/python_project$upload_2021.coverage" NAME="upload_2021 Coverage Results" MODIFIED="1617065339078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/chapter_17" />
-    <SUITE FILE_PATH="coverage/python_project$read_xl.coverage" NAME="read_xl_1 Coverage Results" MODIFIED="1616596125359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/chapter_1" />
-    <SUITE FILE_PATH="coverage/python_project$jieba_test2021.coverage" NAME="jieba_test2021 Coverage Results" MODIFIED="1616924770967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/python_project$3_2_homepage.coverage" NAME="3_2_homepage Coverage Results" MODIFIED="1616141304278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_santostang" />
-    <SUITE FILE_PATH="coverage/python_project$read_xl_1__1_.coverage" NAME="read_xl_1 (1) Coverage Results" MODIFIED="1616598142633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/chapter_1" />
-    <SUITE FILE_PATH="coverage/python_project$4_4_2_airbnb.coverage" NAME="4_4_2_airbnb Coverage Results" MODIFIED="1616146605718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_santostang" />
-    <SUITE FILE_PATH="coverage/python_project$create_class.coverage" NAME="create_class Coverage Results" MODIFIED="1616517494271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_santostang/chapter_2" />
-    <SUITE FILE_PATH="coverage/python_project$read_xl_1.coverage" NAME="read_xl_1 Coverage Results" MODIFIED="1616596507168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/chapter_1" />
-    <SUITE FILE_PATH="coverage/python_project$file_trans.coverage" NAME="file_trans Coverage Results" MODIFIED="1617063340336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/chapter_17" />
-    <SUITE FILE_PATH="coverage/python_project$text.coverage" NAME="text Coverage Results" MODIFIED="1616940301748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/python_project$ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1616064758384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearnPython3theHardWay" />
-    <SUITE FILE_PATH="coverage/python_project$reg.coverage" NAME="reg Coverage Results" MODIFIED="1616935233586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python自动化办公实战课/python_productivity-main/文章8代码" />
-    <SUITE FILE_PATH="coverage/python_project$ex5_20200920_no_my_.coverage" NAME="ex5_20200920_no_my_ Coverage Results" MODIFIED="1616661889721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearnPython3theHardWay" />
   </component>
 </project>

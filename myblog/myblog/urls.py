@@ -17,11 +17,13 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
-from blog.views import IndexView, DetailView
+from blog.views import IndexView, DetailView, ArchiveView, ArticleApiView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", IndexView.as_view()),
+    path("archives/", ArchiveView.as_view()),
+    path("api/article", ArticleApiView.as_view()),
     path("mdeditor/", include("mdeditor.urls")),
     path("<str:year>/<str:month>/<str:day>/<str:uri>", DetailView.as_view()),
 

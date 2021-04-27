@@ -1,9 +1,25 @@
 from django.shortcuts import render, get_object_or_404
+from django.db import transaction
 # Create your views here.
-from django.http import HttpResponse, Http404, HttpResponseRedirect
+from django.http import HttpResponse, Http404, HttpResponseRedirect, JsonResponse, FileResponse
 from django.urls import reverse
 from django.views import generic
 from .models import Question, Choice
+
+# 用类实现restfulapi
+# 只需要绑定一次path, 会根据HttpRequest.method自动选择相应的处理方法.
+# class IndexView(generic.View):
+#     def get(self, *args, **kwargs):
+#         pass
+#
+#     def post(self, *args, **kwargs):
+#         pass
+#
+#     def put(self, *args, **kwargs):
+#         pass
+#
+#     def delete(self, *args, **kwargs):
+#         pass
 
 
 class IndexView(generic.TemplateView):
@@ -46,6 +62,7 @@ def results(request, question_id):
     return render(request, 'polls/results.html', {'question': question})
 
 
+@transaction.atomic()
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     try:
@@ -63,3 +80,12 @@ def vote(request, question_id):
         # with POST data. This prevents data from being posted twice if a
         # user hits the Back button.
         return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
+
+
+def file_test(request):
+    filename = "views.py"
+    with open('polls/views.py', "r", encoding="utf-8") as f:
+        response = FileResponse(f.read())
+        response['content-type'] = "application/octet-stream"
+        response['content-disposition'] = f"attachment; filename={filename}"
+        return response

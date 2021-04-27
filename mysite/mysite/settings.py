@@ -83,9 +83,16 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'my2580my',
         'HOST': '127.0.0.1',
-        'PORT': '3306',
-
-    }
+        'PORT': '3306'
+    },
+    'person': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'person',
+            'USER': 'root',
+            'PASSWORD': 'my2580my',
+            'HOST': '127.0.0.1',
+            'PORT': '3306'
+        }
 }
 
 

@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, re_path
 from . import views
 
 app_name = "polls"
@@ -12,4 +12,6 @@ urlpatterns = [
     path('<int:question_id>/results/', views.results, name='results'),
     # ex: /polls/5/vote/
     path('<int:question_id>/vote/', views.vote, name='vote'),
+    # re_path(r'^(?P<question_id>\d+)/vote/$', views.vote, name='vote')
+    path('file/', views.file_test)
 ]
