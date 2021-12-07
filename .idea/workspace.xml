@@ -11,8 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06f05b94-8a90-4522-87b8-e92a7b8d1605" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnPython3theHardWay/ex6_String_and_Text_20211206.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnPython3theHardWay/ex6_String_and_Text_20211206.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnPython3theHardWay/ex7_more_printing_20211207.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="G:\projects\python-project\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex6_String_and_Text_20211206">
+  <component name="RunManager" selected="Python.ex7_more_printing_20211207">
     <configuration name="class_10_1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,7 +196,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test56_baidu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex7_more_printing_20211207" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,11 +204,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/firefoxdownload/pythonspider" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearnPython3theHardWay" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:/firefoxdownload/pythonspider/test56_baidu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearnPython3theHardWay/ex7_more_printing_20211207.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex7_more_printing_20211207" />
         <item itemvalue="Python.ex6_String_and_Text_20211206" />
         <item itemvalue="Python.ex4_20200918" />
         <item itemvalue="Python.ex3_20191103-20200918" />
         <item itemvalue="Python.ex5_study_drills_2_convert_20210325" />
-        <item itemvalue="Python.test56_baidu" />
       </list>
     </recent_temporary>
   </component>
