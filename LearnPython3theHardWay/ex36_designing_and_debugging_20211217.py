@@ -38,6 +38,7 @@ def room2():
         die("你没有按规定喝水！")
 
 
+# 创建房间1 房间2列表，用户随机调用，游戏中的随机穿越
 room = [room1, room2]
 
 
@@ -48,6 +49,7 @@ def room3():
         choice = input("请选择序号：a，b，c或者d：")
         if choice == "a" or choice == "c":
             print("恭喜你获得月光宝盒！你将直接随机穿越到别的房间。")
+            # 随机调用函数房间1和房间2
             random.choice(room)()
         elif choice == "b":
             print("恭喜你获得重生机会！游戏重新开始！")
